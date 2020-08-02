@@ -1,0 +1,243 @@
+body{
+	margin: 2%;
+}
+h1{
+	text-transform: uppercase;
+	font-family:  Helvetica, sans-serif;
+}
+
+header{
+	text-align: center;
+	background-image: linear-gradient(#00f5dc,#ebf700);
+	padding-bottom: 2%;
+	
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+
+}
+header p{
+	font-size: 20px;
+	margin: 2%;
+	font-family: cursive;
+}
+nav{
+	text-align: center;
+	margin: 2%;
+
+}
+nav a{
+	background: white;
+	margin: 1%;
+	padding: 1% 5% 1% 5%;
+	text-decoration: none;
+	border: solid 2px white;
+	border-radius: 15px;
+	color: #f09a07;
+	/*transition: 1s ease;*/
+}
+nav a i{
+	color: #14ed05;
+}
+/*.active{
+	background-color: black;
+}*/
+nav a:hover{
+	background: #9ba19a;
+	border-radius: 50%;
+	color: black;
+}
+
+
+
+.left{
+	
+	float: left;
+	width: 30%;
+	background-image: url("../images/hill1.jpeg");
+	margin: 1% 0% 0% 0%;
+}
+.left img{
+	width: 70%;
+	
+	margin: 5% 15% 5% 15%;
+	border: solid 2px black;
+	padding: 1%;
+}
+.right{
+	display: inline-block;
+	width: 64%;
+	margin: 1% 0% 1% 6%;
+	font-size: 150%;
+	background-image: url("../images/buddha2.jpeg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	
+}
+.right h2{
+	color: #071bf0;
+	background: grey;
+	text-transform: uppercase;
+}
+.right h2:hover{
+	color: #ed09b4;
+	background-image: linear-gradient(#18f70c,#0ca0f0);
+}
+.right p{
+	height: 700px;
+	text-align: center;
+	margin-top: 15%;
+}
+footer{
+	clear: both;
+	text-align: center;
+	background: #fcb103;
+
+}
+footer a{
+	display: inline-block;
+	padding: 1%;
+	background: #fcb103;
+
+
+}
+footer a i{
+	transition: color 0.5s linear 0.2s.transform 0.5s linear 0.2s;
+}
+footer a i:hover{
+	color: red;
+	transform: scale(2,2);
+	
+}
+@keyframes slide{
+	0%{
+		top: 7%;
+		left: 3%;
+
+	}
+	50%{
+		top: 50%;
+		left: 50%;
+
+	}
+	100%{
+		top: 50%;
+		left: 3%;
+	}
+}
+@keyframes slide2{
+	0%{
+		top: 7%;
+		right: : 3%;
+
+	}
+	50%{
+		top: 50%;
+		right: 50%;
+
+	}
+	100%{
+		top: 50%;
+		right: : 3%;
+	}
+}
+.first img{
+	position: absolute;
+	left: 3%;
+	top: 7%;
+	width: 100px;
+	height: 100px;
+	border: solid 2px #ed9107;
+	transition: transform 0.5s linear 0.2s;
+	transform: rotate(360deg);
+}
+.first img{
+	animation: slide 2s linear;
+	
+}
+.second img{
+	position: absolute;
+	right: 3%;
+	top: 7%;
+	width: 100px;
+	height: 100px;
+	border: solid 2px #ed9107;
+	transition: transform 0.5s linear 0.2s;
+	transform: rotate(360deg);
+}
+.second img{
+	animation: slide2 2s linear;
+	
+}
+.third{
+	margin: 0% 2% 2% 1%;
+	text-align: center;
+	font-size: 200%;
+	font-family: cursive;
+	color: #ff0000;
+}
+#name{
+	text-align: center;
+	color: red;
+	font-size: 10px;
+}
+#name{
+	font-size: 150%;
+	text-transform: uppercase;
+}
+
+
+/*history*/
+.history{
+	background-image: url('../images/history.jpg');
+	
+	background-size: 100%;
+	display: inline-block;
+	width: 64%;
+	margin: 1% 0% 1% 6%;
+	font-size: 150%;
+	color: white;
+}
+
+
+/*gallery*/
+.back{
+	background-image: url(../images/sky.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#view{
+	margin-left: 40%;
+	background: transparent;
+	width: 300px;
+	height: 300px;
+	line-height: 300px;
+	text-align: center;
+	background-image: url("");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-size: 150%;
+	font-weight: 700;
+	margin-top: 1%;
+	border: solid 5px black;
+	color: blue;
+}
+.viewimg img{
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	border: solid 2px black;
+	margin: 1%;
+
+}
+.x1{
+	background-image: url('https://th.bing.com/th/id/OIP.JR67IiWxdt0rvTscPdycrgHaEo?pid=Api&rs=1');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#galleryh1{
+	color: red;
+}
+#galleryp1{
+	color: #00ffd5;
+}
